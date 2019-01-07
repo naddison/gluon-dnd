@@ -6,6 +6,9 @@
     "extends": [
         ".es6-eslintrc"
     ],
+    "globals": {
+        "Provider": true
+    },
     "env": {
         "browser": true,
         "es6": true,
